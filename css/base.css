@@ -1,0 +1,34 @@
+#kat-head, #kat-head-inner {
+  min-height: 30vh; }
+
+html {
+  color: #333333; }
+
+body {
+  color: #fafafa;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+#kat-head {
+  background-color: #6a9c29;
+  border-right: 30px solid #26621a;
+  border-left: 30px solid #26621a; }
+
+#kat-head-inner {
+  position: relative;
+  border-right: 45px solid #8ab24e;
+  border-left: 45px solid #8ab24e; }
+
+#kat-face {
+  background-color: #f4dbb4;
+  text-align: center;
+  color: #333333;
+  margin: 0 auto;
+  position: relative;
+  padding: 35px 0;
+  width: 50%;
+  top: 70px;
+  border: 15px solid #c5b93b; }

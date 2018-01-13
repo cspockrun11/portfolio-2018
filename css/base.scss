@@ -1,0 +1,54 @@
+$katamari-green : #6a9c29;
+$katamari-lightgreen: #8ab24e;
+$katamari-medgreen: #4b8633;
+$katamari-darkgreen: #26621a;
+$katamari-yellow: #c5b93b;
+$katamari-red: #9f2c29;
+$katamari-purple: #500a5a;
+$katamari-black : #333;
+$katamari-white: #fafafa;
+$katamari-flesh: #f4dbb4;
+
+
+%vh { min-height: 30vh; }
+
+html {
+    color:$katamari-black;
+}
+
+body {
+    color: $katamari-white;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+#kat-head{
+    background-color:$katamari-green;
+    border-right: 30px solid $katamari-darkgreen;
+    border-left: 30px solid $katamari-darkgreen;
+    @extend %vh; 
+}
+
+#kat-head-inner {
+    position: relative;
+    border-right: 45px solid $katamari-lightgreen;
+    border-left: 45px solid $katamari-lightgreen;
+    @extend %vh; 
+    
+}
+
+#kat-face {
+    background-color:$katamari-flesh;
+    text-align: center;
+    color:$katamari-black;
+    margin:0 auto;
+    position: relative;
+    padding: 35px 0;
+    width: 50%;
+    top: 70px;
+    border: 15px solid $katamari-yellow;
+}
